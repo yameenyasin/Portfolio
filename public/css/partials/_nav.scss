@@ -1,0 +1,19 @@
+.navbar-inverse {
+    background-image: none;
+    background-color: $header-color;
+}
+
+.container {
+    .navbar-nav>li>a,.navbar-header .navbar-brand{
+        color: $text-white;
+    }
+    .navbar-nav>li>a:hover{
+        color: $text-grey;
+    }
+    
+    .navbar-header {
+        .nav-last-name {
+            color: $text-orange;
+        }
+    }
+}

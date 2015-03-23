@@ -1,0 +1,26 @@
+body {
+    background-color: $body-black;
+    color: $text-white;
+}
+
+.image-watermark {
+    opacity: $image-opacity;
+}
+/* Profile Panel Desktop View CSS */
+.profile-panel-wrapper {
+    padding: 54px;
+    .profile-panel {
+        width: 312px;
+        padding: 20px;
+        background-color: #262626;
+        box-shadow: 1px 1px 7px #262626;
+        border-radius: 8px;
+        .profile-panel-heading {
+            font-size: 25px;
+        }
+        .profile-panel-body {
+            font-size: 15px;
+            text-align: justify;
+        }
+    }
+}

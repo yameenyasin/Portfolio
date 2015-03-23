@@ -1,0 +1,49 @@
+body {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.image-watermark {
+    opacity: 0.2;
+}
+/* Profile Panel Desktop View CSS */
+
+.profile-panel-wrapper {
+    padding: 54px;
+}
+
+.profile-panel-wrapper .profile-panel {
+    width: 312px;
+    padding: 20px;
+    background-color: #262626;
+    box-shadow: 1px 1px 7px #262626;
+    border-radius: 8px;
+}
+
+.profile-panel-wrapper .profile-panel .profile-panel-heading {
+    font-size: 25px;
+}
+
+.profile-panel-wrapper .profile-panel .profile-panel-body {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.navbar-inverse {
+    background-image: none;
+    background-color: #1F3136;
+}
+
+.container .navbar-nav > li > a,
+.container .navbar-header .navbar-brand {
+    color: #FFFFFF;
+}
+
+.container .navbar-nav > li > a:hover {
+    color: #9d9d9d;
+}
+
+.container .navbar-header .nav-last-name {
+    color: #EEB111;
+}
+/*# sourceMappingURL=main.css.map */
